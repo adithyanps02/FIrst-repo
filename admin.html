@@ -10,51 +10,73 @@
             font-size: 120%;
             color: aqua;
         }
-        header {
+        header { 
             background-color: dimgray;
-            padding: 30px;
+            padding: 50px;
             text-align: left;
             font-size: 35px;
             color: white;
         }
         article {
             float: left;
-            padding: 20px;
+            padding: 50px;
             width: 100%;
         }
         left {
             float: left;
             text-align: center;
-            width: 33%;
-            background-color: indigo;
+            width: 31%;
+            
+            background-color: rgb(26, 4, 41);
+            border: 2px solid white;
         }
         middle {
             float: left;
             text-align: center;
-            width: 33%;
-            background-color: indigo;
+            width: 31%;
+            background-color: rgb(29, 5, 58);
+            border: 2px solid white;
 
         }
         right {
             float: left;
             text-align: center;
-            width: 34%;
-            background-color: indigo;
+            width: 31%;
+            background-color: rgb(36, 16, 51);
+            border: 2px solid white;
         }
         content {
             float: left;
             width: 100%;
+            padding: 50px;
 
         }
-        footer {
-            background-color: cadetblue;
-            padding: 30px;
+        footerl {
+            float: left;
+            
             text-align: left;
-            color: white;
+            width: 50%;
+            background-color: hsl(234, 71%, 13%);
+            height: 600px;
+            
+
         }
+        footerr {
+            float: left;
+            text-align: left;
+            width: 50%;
+            
+            background-color: hsl(234, 71%, 13%);
+            height: 600px;
+            
+
+        }
+
     </style>
+
 </head>
-<body style="background-color: black;color: antiquewhite;"><!--baground colour and font colour-->
+
+<body style="background-color: black;color: antiquewhite;font-family: Arial, Helvetica, sans-serif;"><!--baground colour and font colour and font style-->
 
     <header>
     <img src="D:\zeefasys training\dump\zeefasys-brand-logo.png" width="300" height="100"><!--brand logo-->
@@ -64,14 +86,14 @@
     <h1 style="font-size: 400%;"><b>
         Let Your Digital Product's Journey <br>Start Here<br></b>
     </h1>
-    <p style="font-size: 120%;">
+    <p style="font-size: 150%;">
         with a firm that delivers easy to manage ,scalable,and modern digital solutions<br> in the age of cloud computing<br>
     </p>
-    <h4 style="color:aqua;">
-    <a href="http://www.zeefasys.com">Get Started </a><br></h4><!--link to zeefasys.com-->
+    <h2 >
+    <a href="http://www.zeefasys.com" style="color: aliceblue;border: 2px solid white; ">Get Started </a><br></h2><!--link to zeefasys.com--><!--using border for the link-->
     </article>
 
-    <left>
+    <left><!--layout-->
     <img src="D:\zeefasys training\dump\cloud.png" width="150" height="150"><br>
     <h2><b>Cloud Engineering</b></h2><br>
     <p><i>Deliver custom cloud solution using <br> cloud native development and<br> application mordernization</i></p><br>
@@ -80,8 +102,8 @@
     <middle>
     <img src="D:\zeefasys training\dump\software-engineer.png" width="150" height="150"><br>
     <h2><b>Software Engineering</b></h2><br>
-    <p><i>Engineer and support custom software<br>solution using extensive set of <br> programming languages, framework <br> 
-        libraries, and tools for projects of any <br> scale and complexity</i></p><br>
+    <p><i>Engineer and support custom software solution using<br> extensive set of programming languages, framework  
+        libraries,<br> and tools for projects of any scale and complexity</i></p><br>
     </middle>
 
     <right>
@@ -93,25 +115,56 @@
 
       
          <content>
-         <h1><b><span class="note">Made In The Cloud </span>Means Serverless Architecture</b></h1><br>
-         <p>Serverless builds on the power of the cloud and adds super powers that turn a simple Software Solution into an Elastic, Distributed, and Event-Driven systems <br>
+         <h1 style="font-size: 300%;padding: 25px;"><b><span class="note">Made In The Cloud </span>Means Serverless Architecture</b></h1><br><!--class function using span-->
+         <p style="font-size: 150%; padding: 25px;">Serverless builds on the power of the cloud and adds super powers that turn a simple Software Solution into an Elastic, Distributed, and Event-Driven systems <br>
              that are ready for success in any competitive software market<br></p>
 
-             <table>
+             <table style="padding: 50px;"><!--tables-->
                 <tr>
-                    <th><img src="D:\zeefasys training\dump\serverless-3.png" width="100" height="100"></th>
-                    <th><img src="D:\zeefasys training\dump\serverless-1.png" width="100" height="100"></th>
-                    <th><img src="D:\zeefasys training\dump\serverless-2.png" width="100" height="100"></th>
+                    <th><img src="D:\zeefasys training\dump\serverless-3.png" width="200" height="200"></th>
+                    <th><img src="D:\zeefasys training\dump\serverless-1.png" width="200" height="200"></th>
+                    <th><img src="D:\zeefasys training\dump\serverless-2.png" width="200" height="200"></th>
                 </tr>
                 <tr>
-                    <td>Elastic</td>
-                    <td>Distributed</td>
-                    <td>Event Driven</td>
+                    <td style="font-size: 200%;">Elastic</td>
+                    <td style="font-size: 200%;">Distributed</td>
+                    <td style="font-size: 200%;">Event Driven</td>
                 </tr>
 
 
              </table>
          </content>
+
+
+         <footerl>
+            <br>
+            <img src="D:\zeefasys training\dump\zeefasys-brand-logo.png" width="200" height="80"><!--brand logo-->
+            <pre style="font-size: 120%; font-family: Arial, Helvetica, sans-serif;"><!--using pre tag-->
+                U.S Office
+                9061 Harrow way, Eden Prairie, MN 
+                55347
+
+                U.K Office
+                56, Holborn Crescent Tattenhoe,
+                Milton Keynes MK4 3FT England, UK
+
+                India Office
+                Govt.Cyberpark, Kozhikode-673 016,
+                Kerala
+            </pre><br>
+         </footerl>
+
+         <footerr>
+            <h2><b>For Contact</b></h2><br>
+            <form action="/data.php"><!--using form tag-->
+                <label for="fname">NAME : </label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="email">EMAIL ID :</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="submit">
+            </form>
+
+         </footerr>
 
     
 
